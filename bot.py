@@ -146,7 +146,18 @@ async def randomWebsite(ctx):
 
 @client.command()
 async def fortuneCookie(ctx):
-    responses = []
+    responses = ["You will buy jeans.",
+                 "You will read this message.",
+                 "You will die one day.",
+                 "You will breathe fresh air (probably. Can't tell with lockdown.)",
+                 "You will be stuck in lockdown for one more day.",
+                 "You will invite me to your server: https://discord.com/api/oauth2/authorize?client_id=883577201289736202&permissions=8&scope=bot",
+                 "You will go to my Github repo: https://github.com/hisoki-bot-dev/GG-Bot",
+                 "You will add my creator on VALORANT: royalety#6969",
+                 "You will add my creator on Discord: Homer Not-a-SIMPson#6562",
+                 "You will download Manjaro and stop using Microsoft products: https://manjaro.org",
+                 "You will not eat this fortune cookie.",
+                 "Bruh. I am not a psychic. Why you coming to me for advice? Idiot!"]
 
 #Moderation Commands
 
@@ -226,4 +237,4 @@ async def helpMe_setup(ctx):
     await ctx.send("Set up your bot with this function. Permissions Needed: `Administrator`")
 
 
-client.run('TOKEN GOES HERE')
+client.run('Token Goes Here')

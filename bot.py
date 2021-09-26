@@ -226,4 +226,4 @@ async def helpMe_setup(ctx):
     await ctx.send("Set up your bot with this function. Permissions Needed: `Administrator`")
 
 
-client.run('')
+client.run('TOKEN GOES HERE')

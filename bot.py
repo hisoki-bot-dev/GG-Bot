@@ -157,7 +157,8 @@ async def fortuneCookie(ctx):
                  "You will add my creator on Discord: Homer Not-a-SIMPson#6562",
                  "You will download Manjaro and stop using Microsoft products: https://manjaro.org",
                  "You will not eat this fortune cookie.",
-                 "Bruh. I am not a psychic. Why you coming to me for advice? Idiot!"]
+                 "Bruh. I ain't a psychic. Why you coming to me for advice? Idiot!"]
+    await ctx.send(f'{random.choice(responses)}')
 
 #Moderation Commands
 
@@ -237,4 +238,4 @@ async def helpMe_setup(ctx):
     await ctx.send("Set up your bot with this function. Permissions Needed: `Administrator`")
 
 
-client.run('Token Goes Here')
+client.run('TOKEN GOES HERE')

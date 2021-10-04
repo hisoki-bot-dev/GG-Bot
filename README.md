@@ -40,7 +40,7 @@ The prefix for GG Bot is `gg`.
 
 #### Ping
 
-The ping command replies with "Pong! [bot latency].
+The ping command replies with "Pong! [bot latency]".
 
 #### 8ball
 

@@ -1,6 +1,6 @@
 # GG Bot
 
-GG Bot is the multipurpose bot for _your_ Discord server.
+GG Bot is the multipurpose bot for _your_ Discord server. No dashboards, no customisation - just one size fits most!
 
 ## Commands
 
